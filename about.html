@@ -4,12 +4,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ABOUT</title>
+  <title>About CrossTech Collaboration OS — The Operating System for Modern Tech Organizations</title>
+  <meta name="description" content="CrossTech Collaboration OS unifies hierarchical RBAC, high-velocity sprint Kanban, real-time contextual chat, and immutable audit governance in one workspace." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Inter:wght@400;500;600&display=swap"
-    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./styles.css" />
 </head>
 
@@ -18,7 +17,7 @@
   <!-- NAV -->
   <header class="nav-wrapper" id="navbar">
     <nav class="nav-inner container">
-      <a href="./index.html" class="nav-logo" aria-label="EmployeeOS Home">
+      <a href="index.html" class="nav-logo" aria-label="CrossTech Collaboration OS Home">
         <span class="logo-mark">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
             <path
@@ -29,114 +28,46 @@
         <span class="logo-text">CrossTech Collaboration OS</span>
       </a>
       <ul class="nav-links" role="list">
-
-        <!-- PRODUCTS -->
         <li class="nav-item has-dropdown">
-          <button class="nav-btn" aria-haspopup="true" aria-expanded="false">Products <span
-              class="chevron">&#8964;</span></button>
+          <button class="nav-btn" aria-haspopup="true" aria-expanded="false">Products <span class="chevron">&#8964;</span></button>
           <div class="mega-menu mega-products" role="menu">
-            <div class="mega-body">
-              <div class="mega-left">
-                <p class="mega-section-label">CORE MODULES</p>
-                <div class="mega-cols">
+            <div class="mega-body" style="grid-template-columns: 1fr; max-width: 860px;">
+              <div class="mega-left" style="padding: 1.5rem 1.5rem; border-right: none;">
+                <p class="mega-section-label">STRATEGIC PILLARS</p>
+                <div class="mega-cols" style="grid-template-columns: repeat(2, 1fr); gap: 0.75rem;">
                   <a href="product/hierarchy.html" class="mega-item" role="menuitem">
-                    <span class="mega-ico" style="background:#fdf2f8;color:#be185d">...</span>
-                    <div><strong>5-Tier Scoped RBAC</strong>
-                      <p>Clean organizational hierarchy</p>
+                    <span class="mega-ico" style="background:#fff7ed;color:#f97316">🏛</span>
+                    <div><strong>Strict Scoped RBAC</strong>
+                      <p>5-tier cascaded org hierarchy</p>
                     </div>
                   </a>
                   <a href="product/kanban.html" class="mega-item" role="menuitem">
-                    <span class="mega-ico" style="background:#fdf2f8;color:#be185d">...</span>
-                    <div><strong>Agile Kanban</strong>
-                      <p>Fractional LexoRank Ordering</p>
+                    <span class="mega-ico" style="background:#fff7ed;color:#ea580c">⚡</span>
+                    <div><strong>Agile Kanban Velocity</strong>
+                      <p>Fractional LexoRank &amp; WIP limits</p>
                     </div>
                   </a>
                   <a href="product/communication.html" class="mega-item" role="menuitem">
-                    <span class="mega-ico" style="background:#fdf2f8;color:#be185d">...</span>
-                    <div><strong>Real-Time Streams</strong>
-                      <p>Contextual team communication</p>
+                    <span class="mega-ico" style="background:#fff7ed;color:#ea580c">💬</span>
+                    <div><strong>Contextual Streams</strong>
+                      <p>Real-time scoped WebSocket chat</p>
+                    </div>
+                  </a>
+                  <a href="product/audit.html" class="mega-item" role="menuitem">
+                    <span class="mega-ico" style="background:#fff7ed;color:#ea580c">🔒</span>
+                    <div><strong>Immutable Audit Vault</strong>
+                      <p>Cryptographic compliance logs</p>
                     </div>
                   </a>
                 </div>
               </div>
-              <div class="mega-right mega-right-services">
-                <p class="mega-section-label">SOLUTIONS</p>
-                <ul>
-                  <li><a href="solutions/engineering.html">For Engineering Leaders</a></li>
-                  <li><a href="solutions/product.html">For Product Managers</a></li>
-                  <li><a href="solutions/enterprise.html">For Founders &amp; Executives</a></li>
-                </ul>
-              </div>
             </div>
           </div>
         </li>
-
-        <li class="nav-item has-dropdown">
-          <button class="nav-btn" aria-haspopup="true" aria-expanded="false">Resources <span
-              class="chevron">&#8964;</span></button>
-          <div class="mega-menu mega-resources" role="menu">
-            <div class="mega-body">
-              <div class="mega-left">
-                <p class="mega-section-label">RESOURCE LIBRARY</p>
-                <div class="mega-cols">
-                  <a href="blog.html" class="mega-item" role="menuitem">
-                    <span class="mega-ico" style="background:#eff6ff;color:#2563eb"><svg width="16" height="16"
-                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path
-                          d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5V4.5z" />
-                      </svg></span>
-                    <div><strong>Blog</strong>
-                      <p>Latest global employment insights &amp; guides</p>
-                    </div>
-                  </a>
-                  <a href="ask-an-expert.html" class="mega-item" role="menuitem">
-                    <span class="mega-ico" style="background:#eff6ff;color:#2563eb"><svg width="16" height="16"
-                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
-                      </svg></span>
-                    <div><strong>Ask an Expert</strong>
-                      <p>Get answers to complex global HR questions</p>
-                    </div>
-                  </a>
-                  <a href="compliance-watchtower.html" class="mega-item" role="menuitem">
-                    <span class="mega-ico" style="background:#eff6ff;color:#2563eb"><svg width="16" height="16"
-                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-                      </svg></span>
-                    <div><strong>Compliance Watchtower</strong>
-                      <p>Stay ahead of evolving global labor laws</p>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <div class="mega-right">
-                <p class="mega-section-label">FEATURED BLOG</p>
-                <a href="blog/ultimate-eor-guide.html" class="mega-case-card" role="menuitem">
-                  <div class="mega-case-img blog-post-img">
-                    <img src="./images/"blog/eor-guide.png" alt="Featured: EOR Guide"
-                      style="width:100%;height:100%;object-fit:cover;" />
-                  </div>
-                  <span class="mega-case-text">The Ultimate Guide to Employer of Record (EOR) hiring in 2026.</span>
-                  <span class="mega-learn-more">Read article →</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </li>
-
         <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link" style="color:#f97316; font-weight:700;">About</a></li>
       </ul>
       <div class="nav-actions">
-        <div class="nav-lang">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-            aria-hidden="true">
-            <circle cx="12" cy="12" r="10" />
-            <path
-              d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
-          </svg>
-          <span>EN</span>
-          <span class="chevron">&#8964;</span>
-        </div>
         <a href="#demo" class="btn-nav-demo">Book a demo</a>
       </div>
       <button class="nav-mobile-toggle" aria-label="Open menu" aria-expanded="false">
@@ -149,383 +80,160 @@
   <section class="hero" id="hero">
     <div class="hero-inner container">
       <div class="hero-content">
-        <h1>The Operating System for<br>Modern Tech Organizations.</h1>
-        <p class="hero-sub">Unify hierarchical RBAC, high-velocity sprint Kanban, and real-time team streams in one pristine workspace.</p>
-        <div class="hero-ctas">
-          <a href="#demo" class="btn btn-demo">Start Free 14-Day Trial</a>
-          <a href="#sandbox" class="btn" style="background:transparent; border:1px solid rgba(255,255,255,0.3); color:white; margin-left:12px;">Watch 2-Min Demo</a>
+        <h1 style="font-size:clamp(2rem, 3.2vw, 2.85rem); margin-top:0;">Built for High-Output<br>Modern Tech Teams</h1>
+        <p class="hero-sub" style="max-width:440px;">CrossTech was engineered to eliminate SaaS sprawl. We replace disconnected subscriptions with a unified operating system that ties role hierarchy, sprint execution, and contextual team communication into one synchronized ecosystem.</p>
+        <div class="hero-ctas" style="margin-top:1.5rem;">
+          <a href="#demo" class="btn btn-demo">Book a Demo</a>
+          <a href="pricing.html" class="btn-secondary-glass">View Pricing Plans →</a>
         </div>
       </div>
       <div class="hero-visual" aria-hidden="true">
-        <img src="./images/"indexHero.png" alt="EmployeeOS Global Employment" class="hero-img" />
+        <img src="images/crosstechindex.png" alt="CrossTech Collaboration OS Workspace" class="hero-img" style="max-height:480px; object-fit:contain; filter:drop-shadow(0 20px 45px rgba(249, 115, 22, 0.4));" />
       </div>
     </div>
   </section>
 
-  <!-- LOGO BAR -->
-  <section class="logo-bar" aria-label="Trusted by global companies">
+  <!-- THE ORIGIN & PROBLEM SOLVED -->
+  <section class="section" style="padding: 5rem 0 3.5rem;">
     <div class="container">
-      <p class="logo-bar-label">GLOBAL COMPANIES GROW WITH EMPLOYEEOS</p>
-      <div class="logo-track-wrap">
-        <div class="logo-track">
-          <span class="plogo">MIZUHO</span>
-          <span class="plogo">&#9632; Lovable</span>
-          <span class="plogo">box</span>
-          <span class="plogo">miro</span>
-          <span class="plogo">KFC</span>
-          <span class="plogo">&#9733; Heineken</span>
-          <span class="plogo">BYD</span>
-          <span class="plogo">&#9650; Vercel</span>
-          <span class="plogo">ANTHROPIC</span>
-          <span class="plogo">WORKDAY</span>
-          <span class="plogo">STRIPE</span>
-          <span class="plogo">NOTION</span>
-          <!-- duplicate for seamless loop -->
-          <span class="plogo">MIZUHO</span>
-          <span class="plogo">&#9632; Lovable</span>
+      <div style="text-align:center; max-width:780px; margin:0 auto 3.5rem;">
+        <h2 style="font-size:clamp(1.85rem, 3vw, 2.4rem); font-weight:800; color:#0f172a; margin-top:0.5rem;">Why We Built CrossTech Collaboration OS</h2>
+        <p style="color:#4b5563; font-size:1.05rem; line-height:1.7; margin-top:1rem;">Modern high-growth software and product companies are drowning in point-solution fragmentation. Teams operate Jira for sprint issues, Slack for messaging, Notion for documentation, and separate spreadsheets for permission governance.</p>
+      </div>
 
-  <section class="hero" id="hero" style="padding-top: 140px; padding-bottom: 60px; min-height: auto;">
-    <div class="hero-inner container">
-      <div class="hero-content" style="max-width: 800px; margin: 0 auto; text-align: center;">
-        <h1 style="font-size: 3rem;">ABOUT</h1>
-        <p class="hero-sub">Deep dive into ABOUT features.</p>
+      <div class="moats-grid">
+        <div class="moat-card">
+          <div class="moat-number">01</div>
+          <h3>Zero Glue-Code Overhead</h3>
+          <p>No more fragile Zapier zaps or webhook race conditions trying to keep chat channels updated with Jira tickets. Kanban tasks, discussion streams, and organizational tiers inhabit the exact same underlying database model.</p>
+        </div>
+
+        <div class="moat-card">
+          <div class="moat-number">02</div>
+          <h3>70% SaaS Cost Consolidation</h3>
+          <p>A standard 100-person tech company spends $48 to $70 per user every month across 4 disconnected software licenses. CrossTech consolidates this entire toolchain starting at just $8 to $20 per seat.</p>
+        </div>
+
+        <div class="moat-card">
+          <div class="moat-number">03</div>
+          <h3>Deterministic Auditability</h3>
+          <p>Traditional tools maintain separated logs that make compliance audits painful. CrossTech maintains a unified cryptographic event vault that records every role change, task transition, and chat event in an append-only ledger.</p>
+        </div>
       </div>
     </div>
   </section>
 
-    <section class="section" style="padding: 100px 20px; text-align: center;">
-      <div class="container">
-        <h2 style="font-size: 2.5rem; margin-bottom: 20px;">ABOUT</h2>
-        <p style="font-size: 1.2rem; color: #475569; max-width: 700px; margin: 0 auto;">Enterprise-grade implementation of about configured with ONIX Executive Light-Mode and mathematical precision.</p>
-        <div style="margin-top: 60px; padding: 60px; background: white; border-radius: 16px; box-shadow: 0 4px 16px rgba(0,0,0,0.04);">
-          <p style="font-family: 'JetBrains Mono', monospace; color: #94a3b8;">// UI Component Module Loading...</p>
-        </div>
+  <!-- 4 STRATEGIC ARCHITECTURAL PILLARS -->
+  <section class="section" style="background:#f8fafc; padding: 5rem 0; border-top:1px solid #e2e8f0; border-bottom:1px solid #e2e8f0;">
+    <div class="container">
+      <div style="text-align:center; max-width:820px; margin:0 auto 3.5rem;">
+        <h2 style="font-size:clamp(1.85rem, 3vw, 2.4rem); font-weight:800; color:#0f172a; margin-top:0.5rem;">The 4 Strategic Product Pillars</h2>
+        <p style="color:#64748b; font-size:1.05rem; line-height:1.7; margin-top:1rem;">Every module within CrossTech is purpose-built to address the technical bottlenecks of legacy enterprise software.</p>
       </div>
-    </section>
-  
-            <footer class="testi-person">
-              <img src="https://i.pravatar.cc/44?img=47" alt="Marisol Jiménez" />
-              <div>
-                <strong>Marisol Jiménez</strong>
-                <span>Head of People</span>
-              </div>
-            </footer>
-            <a href="#stories" class="testi-read-link">Read full customer story →</a>
-          </article>
-          <article class="testi-card">
-            <div class="testi-company">
-              <span class="testi-company-logo hp">&#8644;</span>
-              <strong>HomeProject</strong>
-            </div>
-            <blockquote>"We work with 460+ Contractors globally. I'd need to employ 5 or 6 people full time to keep on
-              top of compliance, administration and payroll. EmployeeOS has definitely been a time and money saver for
-              us."</blockquote>
-            <footer class="testi-person">
-              <img src="https://i.pravatar.cc/44?img=51" alt="Erik Sveen" />
-              <div>
-                <strong>Erik Sveen</strong>
-                <span>Founder and CEO of HomeProject</span>
-              </div>
-            </footer>
-            <a href="#stories" class="testi-read-link">Read full customer story →</a>
-          </article>
-          <article class="testi-card">
-            <div class="testi-company">
-              <span class="testi-company-logo se">&#9654;</span>
-              <strong>SEI Consulting</strong>
-            </div>
-            <blockquote>"We see EmployeeOS as a leading and trusted partner. Their expert support, streamlined our
-              processes and created more opportunities for growth and global HR operations."</blockquote>
-            <footer class="testi-person">
-              <img src="https://i.pravatar.cc/44?img=32" alt="Maria Shkaruppa" />
-              <div>
-                <strong>Maria Shkaruppa</strong>
-                <span>Senior Global Mobility Manager</span>
-              </div>
-            </footer>
-            <a href="#stories" class="testi-read-link">Read full customer story →</a>
-          </article>
-          <article class="testi-card">
-            <div class="testi-company">
-              <span class="testi-company-logo lm">&#8734;</span>
-              <strong>LukeMcK Inc</strong>
-            </div>
-            <blockquote>"If we had to manage everything in-house, it would cost us well over $500,000 more each year.
-              EmployeeOS has been a huge cost saving and burden reduction for our finance team."</blockquote>
-            <footer class="testi-person">
-              <img src="https://i.pravatar.cc/44?img=15" alt="Luke McKinlay" />
-              <div>
-                <strong>Luke McKinlay</strong>
-                <span>VP of Finance</span>
-              </div>
-            </footer>
-            <a href="#stories" class="testi-read-link">Read full customer story →</a>
-          </article>
 
-          <!-- Duplicated set for continuous conveyor belt loop -->
-          <article class="testi-card" aria-hidden="true">
-            <div class="testi-company">
-              <span class="testi-company-logo rt">&#9194;</span>
-              <strong>REVERSE TECH</strong>
-            </div>
-            <blockquote>"We run monthly, semi-monthly and hourly payroll in multiple different currencies around the
-              world and our Finance Manager has full visibility in a single platform. With EmployeeOS, you can make it
-              happen."</blockquote>
-            <footer class="testi-person">
-              <img src="https://i.pravatar.cc/44?img=47" alt="Marisol Jiménez" />
-              <div>
-                <strong>Marisol Jiménez</strong>
-                <span>Head of People</span>
-              </div>
-            </footer>
-            <a href="#stories" class="testi-read-link">Read full customer story →</a>
-          </article>
-          <article class="testi-card" aria-hidden="true">
-            <div class="testi-company">
-              <span class="testi-company-logo hp">&#8644;</span>
-              <strong>HomeProject</strong>
-            </div>
-            <blockquote>"We work with 460+ Contractors globally. I'd need to employ 5 or 6 people full time to keep on
-              top of compliance, administration and payroll. EmployeeOS has definitely been a time and money saver for
-              us."</blockquote>
-            <footer class="testi-person">
-              <img src="https://i.pravatar.cc/44?img=51" alt="Erik Sveen" />
-              <div>
-                <strong>Erik Sveen</strong>
-                <span>Founder and CEO of HomeProject</span>
-              </div>
-            </footer>
-            <a href="#stories" class="testi-read-link">Read full customer story →</a>
-          </article>
-          <article class="testi-card" aria-hidden="true">
-            <div class="testi-company">
-              <span class="testi-company-logo se">&#9654;</span>
-              <strong>SEI Consulting</strong>
-            </div>
-            <blockquote>"We see EmployeeOS as a leading and trusted partner. Their expert support, streamlined our
-              processes and created more opportunities for growth and global HR operations."</blockquote>
-            <footer class="testi-person">
-              <img src="https://i.pravatar.cc/44?img=32" alt="Maria Shkaruppa" />
-              <div>
-                <strong>Maria Shkaruppa</strong>
-                <span>Senior Global Mobility Manager</span>
-              </div>
-            </footer>
-            <a href="#stories" class="testi-read-link">Read full customer story →</a>
-          </article>
-          <article class="testi-card" aria-hidden="true">
-            <div class="testi-company">
-              <span class="testi-company-logo lm">&#8734;</span>
-              <strong>LukeMcK Inc</strong>
-            </div>
-            <blockquote>"If we had to manage everything in-house, it would cost us well over $500,000 more each year.
-              EmployeeOS has been a huge cost saving and burden reduction for our finance team."</blockquote>
-            <footer class="testi-person">
-              <img src="https://i.pravatar.cc/44?img=15" alt="Luke McKinlay" />
-              <div>
-                <strong>Luke McKinlay</strong>
-                <span>VP of Finance</span>
-              </div>
-            </footer>
-            <a href="#stories" class="testi-read-link">Read full customer story →</a>
-          </article>
+      <div class="pillars-grid">
+        <!-- Pillar 1: Scoped RBAC -->
+        <div class="pillar-card">
+          <div class="pillar-header-row">
+            <div class="pillar-icon-box" style="background:#fff7ed; font-size:1.4rem;">🏛</div>
+            <span class="pillar-tag" style="background:#fff7ed; color:#f97316;">HIERARCHY</span>
+          </div>
+          <h3>Strict 5-Tier Scoped RBAC</h3>
+          <p>Unlike legacy tools that stamp global permissions on user profiles, CrossTech enforces scoped membership associations across Platform, Organization, Department, Team Pod, and User. Backed by PostgreSQL Row Level Security (RLS) for rock-solid tenant isolation.</p>
+          <div style="margin-top:auto;">
+            <a href="product/hierarchy.html" style="color:#f97316; font-weight:700; font-size:0.925rem; text-decoration:none;">Explore 5-Tier RBAC Architecture →</a>
+          </div>
         </div>
-      </div>
-      <div class="testi-footer-cta">
-        <a href="#stories" class="btn btn-pill-outline">Hear from our customers →</a>
+
+        <!-- Pillar 2: Kanban Velocity -->
+        <div class="pillar-card">
+          <div class="pillar-header-row">
+            <div class="pillar-icon-box" style="background:#fff7ed; font-size:1.4rem;">⚡</div>
+            <span class="pillar-tag" style="background:#fff7ed; color:#ea580c;">VELOCITY</span>
+          </div>
+          <h3>Agile Kanban Velocity Engine</h3>
+          <p>Engineered for high-output engineering teams who find Jira slow and Trello simplistic. Employs fractional LexoRank ordering for instantaneous drag-and-drop task reordering without table write-locks, customizable WIP limits, and high-DPI vector SVG Bézier velocity charts.</p>
+          <div style="margin-top:auto;">
+            <a href="product/kanban.html" style="color:#ea580c; font-weight:700; font-size:0.925rem; text-decoration:none;">Explore Agile Kanban Specs →</a>
+          </div>
+        </div>
+
+        <!-- Pillar 3: Contextual Streams -->
+        <div class="pillar-card">
+          <div class="pillar-header-row">
+            <div class="pillar-icon-box" style="background:#fff7ed; font-size:1.4rem;">💬</div>
+            <span class="pillar-tag" style="background:#fff7ed; color:#ea580c;">STREAMS</span>
+          </div>
+          <h3>Contextual Real-Time Communication</h3>
+          <p>Eliminates the need for external Slack instances by embedding scoped discussion streams directly inside the organizational hierarchy. Powered by a Redis Pub/Sub WebSocket backplane supporting org-wide announcements, department syncs, and team pod streams.</p>
+          <div style="margin-top:auto;">
+            <a href="product/communication.html" style="color:#ea580c; font-weight:700; font-size:0.925rem; text-decoration:none;">Explore Real-Time Streams →</a>
+          </div>
+        </div>
+
+        <!-- Pillar 4: Audit Vault -->
+        <div class="pillar-card">
+          <div class="pillar-header-row">
+            <div class="pillar-icon-box" style="background:#fff7ed; font-size:1.4rem;">🔒</div>
+            <span class="pillar-tag" style="background:#fff7ed; color:#ea580c;">SECURITY</span>
+          </div>
+          <h3>Immutable Audit Vault &amp; Governance</h3>
+          <p>Provides the rigorous accountability demanded by security-conscious B2B buyers. Every administrative role change, membership transition, and state mutation is recorded in an immutable, append-only cryptographic audit trail meeting SOC 2, HIPAA, and ISO 27001 requirements.</p>
+          <div style="margin-top:auto;">
+            <a href="product/audit.html" style="color:#ea580c; font-weight:700; font-size:0.925rem; text-decoration:none;">Explore Immutable Audit Vault →</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- CTA BANNER (ref3) -->
-  <section class="cta-banner section" id="cta">
+  <!-- ENGINEERING VALUES -->
+  <section class="section" style="padding: 5rem 0;">
+    <div class="container">
+      <div style="text-align:center; max-width:760px; margin:0 auto 3.5rem;">
+        <h2 style="font-size:clamp(1.85rem, 3vw, 2.4rem); font-weight:800; color:#0f172a; margin-top:0.5rem;">Our Engineering Principles</h2>
+        <p style="color:#64748b; font-size:1.05rem; line-height:1.7; margin-top:1rem;">We build software with the same craftsmanship and speed that we expect from the world's best engineering teams.</p>
+      </div>
+
+      <div class="chaos-cards-grid">
+        <div class="chaos-card">
+          <h3 style="font-size:1.2rem; font-weight:800;">⚡ Sub-50ms Interaction Latency</h3>
+          <p style="color:#4b5563; font-size:0.925rem; line-height:1.6;">Every user interaction, from moving a Kanban ticket to delivering a WebSocket message, is optimized to render in under 50 milliseconds.</p>
+        </div>
+
+        <div class="chaos-card">
+          <h3 style="font-size:1.2rem; font-weight:800;">📐 Pure Vector SVG Visualizations</h3>
+          <p style="color:#4b5563; font-size:0.925rem; line-height:1.6;">Zero heavy third-party graphing bundles that slow down client loading. All burn-down and velocity curves are rendered as crisp, mathematical SVG paths calculated directly from database records.</p>
+        </div>
+
+        <div class="chaos-card">
+          <h3 style="font-size:1.2rem; font-weight:800;">🛡️ Kernel-Level PostgreSQL RLS</h3>
+          <p style="color:#4b5563; font-size:0.925rem; line-height:1.6;">Multi-tenant data isolation is enforced directly in the database engine via PostgreSQL Row Level Security policies, eliminating accidental cross-tenant data leakage.</p>
+        </div>
+
+        <div class="chaos-card">
+          <h3 style="font-size:1.2rem; font-weight:800;">💎 Honest, Transparent Pricing</h3>
+          <p style="color:#4b5563; font-size:0.925rem; line-height:1.6;">No surprise enterprise sales barriers or forced annual lock-ins. Transparent seat tiers from a free community starter up to predictable $20/user/mo enterprise packaging.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner section" id="demo">
     <div class="container">
       <div class="cta-card">
-        <h2>Hiring internationally, converting contractors, or consolidating payroll? Talk to our team.</h2>
-        <a href="#demo" class="btn btn-demo">Book a demo</a>
+        <h2>Ready to unite your engineering and product teams?</h2>
+        <p style="color:#fed7aa; font-size:1.05rem; margin-top:0.75rem; margin-bottom:1.75rem;">Consolidate your stack with CrossTech Collaboration OS. Experience seamless hierarchy, sprint boards, and real-time chat.</p>
+        <div style="display:flex; justify-content:center; gap:1rem; flex-wrap:wrap;">
+          <a href="pricing.html" class="btn btn-demo">Explore Transparent Pricing</a>
+          <a href="product/hierarchy.html" class="btn-secondary-glass">Explore Architecture Specs →</a>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- ── FAQ ── -->
-  <section class="home-faq section" id="faq" aria-labelledby="faq-headline">
-    <div class="container home-faq-inner">
-      <div class="home-faq-header">
-        <h2 id="faq-headline">Frequently Asked Questions</h2>
-        <p>Everything you need to know about EmployeeOS. Can't find the answer? <a href="#contact"
-            class="faq-contact-link">Reach out to our team.</a></p>
-      </div>
-      <div class="home-faq-list" role="list">
-
-        <div class="hfaq-item open" role="listitem">
-          <button class="hfaq-q" aria-expanded="true">
-            <span>Do you require deposits or accruals?</span>
-            <span class="hfaq-icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                <polyline points="6 9 12 15 18 9" />
-              </svg>
-            </span>
-          </button>
-          <div class="hfaq-a">
-            <p>We collect reserve payments only in rare, high-risk circumstances. Other EOR providers charge additional
-              deposits for PTO above the legal minimum, removing probation periods, incentive plans, and monthly
-              severance accruals. We don't. No upfront deposits required to get started.</p>
-          </div>
-        </div>
-
-        <div class="hfaq-item" role="listitem">
-          <button class="hfaq-q" aria-expanded="false">
-            <span>How does EmployeeOS prevent misclassification risk?</span>
-            <span class="hfaq-icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                <polyline points="6 9 12 15 18 9" />
-              </svg>
-            </span>
-          </button>
-          <div class="hfaq-a">
-            <p>Our AI-powered Contractor of Record service continuously monitors contractor relationships for
-              misclassification signals. When risk is detected, we generate compliant reclassification workflows and
-              alert your HR team with a clear action plan — before regulators do.</p>
-          </div>
-        </div>
-
-        <div class="hfaq-item" role="listitem">
-          <button class="hfaq-q" aria-expanded="false">
-            <span>Does EmployeeOS require a minimum number of employees?</span>
-            <span class="hfaq-icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                <polyline points="6 9 12 15 18 9" />
-              </svg>
-            </span>
-          </button>
-          <div class="hfaq-a">
-            <p>No. You can start with a single employee or contractor in a single country. Pricing scales with your team
-              — you only pay for active employees and contractors each month. There are no platform fees or seat
-              minimums.</p>
-          </div>
-        </div>
-
-        <div class="hfaq-item" role="listitem">
-          <button class="hfaq-q" aria-expanded="false">
-            <span>How do you handle currency conversions and FX rates?</span>
-            <span class="hfaq-icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                <polyline points="6 9 12 15 18 9" />
-              </svg>
-            </span>
-          </button>
-          <div class="hfaq-a">
-            <p>EmployeeOS uses competitive mid-market exchange rates with a transparent conversion fee. We process
-              payments in the employee's local currency so there are no hidden FX markups on your invoices. All rates
-              are shown clearly before you approve each payroll run.</p>
-          </div>
-        </div>
-
-        <div class="hfaq-item" role="listitem">
-          <button class="hfaq-q" aria-expanded="false">
-            <span>What payment methods do you accept?</span>
-            <span class="hfaq-icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                <polyline points="6 9 12 15 18 9" />
-              </svg>
-            </span>
-          </button>
-          <div class="hfaq-a">
-            <p>We accept all major payment methods: Credit/Debit Cards (Visa, Mastercard, Amex), Wire transfer, ACH,
-              SEPA, and Bank Transfer. Contractor payouts are processed via Stripe Connect. All payments are secured
-              with industry-standard encryption.</p>
-          </div>
-        </div>
-
-        <div class="hfaq-item" role="listitem">
-          <button class="hfaq-q" aria-expanded="false">
-            <span>Does EmployeeOS charge any platform or setup fees?</span>
-            <span class="hfaq-icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                <polyline points="6 9 12 15 18 9" />
-              </svg>
-            </span>
-          </button>
-          <div class="hfaq-a">
-            <p>No platform fees, no setup fees, no onboarding fees. You pay only the flat monthly rate per employee or
-              contractor. Every invoice is itemized so you can see exactly what you're paying for.</p>
-          </div>
-        </div>
-
-        <div class="hfaq-item" role="listitem">
-          <button class="hfaq-q" aria-expanded="false">
-            <span>How fast can we onboard an international employee?</span>
-            <span class="hfaq-icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                <polyline points="6 9 12 15 18 9" />
-              </svg>
-            </span>
-          </button>
-          <div class="hfaq-a">
-            <p>Our average onboarding time is 2.3 days. Standard EOR providers take 30+ days. We've built our own legal
-              entities in every country we operate, so there's no third-party broker delay — your employee can be
-              contracted and ready to start within days of signing.</p>
-          </div>
-        </div>
-
-        <div class="hfaq-item" role="listitem">
-          <button class="hfaq-q" aria-expanded="false">
-            <span>Is our data secure and compliant?</span>
-            <span class="hfaq-icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                <polyline points="6 9 12 15 18 9" />
-              </svg>
-            </span>
-          </button>
-          <div class="hfaq-a">
-            <p>Yes. EmployeeOS is SOC 2 Type II certified, ISO 27001 certified, and GDPR aligned. All data is encrypted
-              in transit and at rest. Employment data belongs to you — we never share it with third parties or use it to
-              train AI models.</p>
-          </div>
-        </div>
-
-        <div class="hfaq-item" role="listitem">
-          <button class="hfaq-q" aria-expanded="false">
-            <span>Can employees access their own payslips and documents?</span>
-            <span class="hfaq-icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                <polyline points="6 9 12 15 18 9" />
-              </svg>
-            </span>
-          </button>
-          <div class="hfaq-a">
-            <p>Yes. Every employee gets their own EmployeeOS dashboard with access to payslips, contracts, benefit
-              enrolment, time-off requests, and expense submissions. No email chains, no PDFs over WhatsApp — everything
-              in one place.</p>
-          </div>
-        </div>
-
-        <div class="hfaq-item" role="listitem">
-          <button class="hfaq-q" aria-expanded="false">
-            <span>Do you offer customer support?</span>
-            <span class="hfaq-icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                <polyline points="6 9 12 15 18 9" />
-              </svg>
-            </span>
-          </button>
-          <div class="hfaq-a">
-            <p>Yes. Every plan includes a dedicated onboarding specialist and access to our global support team. EOR
-              customers get a named in-house HR and legal contact in each country they hire in. Support is available
-              24/7 via your EmployeeOS dashboard.</p>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="hfaq-still">
-        <p>Still have questions?</p>
-        <a href="#contact" class="btn btn-demo">Contact Our Team →</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ── FOOTER ── -->
+  <!-- FOOTER -->
   <footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-col footer-brand">
@@ -535,57 +243,39 @@
                 d="M6 4h7a4 4 0 0 1 4 4 4 4 0 0 1-2.5 3.7L18 20h-3.2l-2.3-7.8H9V20H6V4zm3 2.4v3.8h4a1.6 1.6 0 0 0 1.6-1.9A1.6 1.6 0 0 0 13 6.4H9z"
                 fill="white" />
             </svg></span>
-          <span class="logo-text">EmployeeOS</span>
+          <span class="logo-text">CrossTech Collaboration OS</span>
         </a>
-        <p class="footer-tagline">Global employment infrastructure for modern businesses.</p>
-        <p class="footer-copy">&#xa9; 2026 EmployeeOS Technology, Inc. All rights reserved.</p>
+        <p class="footer-tagline">High-performance operating system for modern engineering and product organizations.</p>
+        <p class="footer-copy">&#xa9; 2026 CrossTech Technologies, Inc. All rights reserved.</p>
       </div>
       <div class="footer-col">
         <h4>Products</h4>
         <ul>
-          <li><a href="global-payroll.html">Global Payroll</a></li>
-          <li><a href="employer-of-record.html">Employer of Record</a></li>
-          <li><a href="contractor-management.html">Contractor Management</a></li>
-          <li><a href="#">HR Management</a></li>
-          <li><a href="benefits.html">Benefits</a></li>
-          <li><a href="peo.html">PEO</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Company</h4>
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="#">Press</a></li>
-          <li><a href="#">Partners</a></li>
+          <li><a href="product/hierarchy.html">5-Tier Scoped RBAC</a></li>
+          <li><a href="product/kanban.html">Agile Kanban Velocity</a></li>
+          <li><a href="product/communication.html">Contextual Streams</a></li>
+          <li><a href="product/audit.html">Immutable Audit Vault</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h4>Resources</h4>
         <ul>
-          <li><a href="#">Country Guides</a></li>
-          <li><a href="#">HR Glossary</a></li>
-          <li><a href="#">Cost Calculator</a></li>
-          <li><a href="#">Webinars</a></li>
-          <li><a href="#">Customer Stories</a></li>
+          <li><a href="pricing.html">Pricing Plans</a></li>
+          <li><a href="product/hierarchy.html">Architecture Specs</a></li>
+          <li><a href="product/audit.html">Security &amp; Compliance</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Legal</h4>
+        <h4>Company</h4>
         <ul>
-          <li><a href="#">Terms of Service</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Cookie Policy</a></li>
-          <li><a href="#">Security</a></li>
+          <li><a href="about.html">About CrossTech</a></li>
+          <li><a href="#demo">Book a Demo</a></li>
         </ul>
       </div>
     </div>
   </footer>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-  <script src="globe-3d.js"></script>
-  <script src="./app.js"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>

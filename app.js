@@ -59,7 +59,7 @@ const hwiMockupData = [
     actionText: 'View details',
     tasks: [
       {
-        icon: '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2"><path d="M20 12V22H4V12"/><path d="M22 7H2v5h20V7z"/><path d="M12 22V7"/></svg>',
+        icon: '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#f97316" stroke-width="2"><path d="M20 12V22H4V12"/><path d="M22 7H2v5h20V7z"/><path d="M12 22V7"/></svg>',
         text: 'Local statutory health & pension enrolled',
         tagText: 'Compliant',
         tagClass: 'overdue',
@@ -111,11 +111,11 @@ const hwiMockupData = [
     actionText: 'Verify risk',
     tasks: [
       {
-        icon: '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>',
+        icon: '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#f97316" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>',
         text: '100% Misclassification liability coverage active',
         tagText: 'Shielded',
         tagClass: 'overdue',
-        tagStyle: 'background:#eff6ff;color:#1d4ed8;'
+        tagStyle: 'background:#fff7ed;color:#ea580c;'
       },
       {
         icon: '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#9ca3af" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>',
@@ -137,7 +137,7 @@ const hwiMockupData = [
     actionText: 'Approve all',
     tasks: [
       {
-        icon: '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#be185d" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><line x1="6" y1="12" x2="18" y2="12"/></svg>',
+        icon: '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#ea580c" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><line x1="6" y1="12" x2="18" y2="12"/></svg>',
         text: 'Design Sprint Milestone 3 — £3,200.00 pending review',
         tagText: 'Pending',
         tagClass: 'overdue',
@@ -359,89 +359,89 @@ if (document.readyState === 'loading') {
 
 /* ---- Role Tabs Switcher ---- */
 const roleData = {
-  cio: {
-    withoutTitle: 'Without EmployeeOS',
+  cto: {
+    withoutTitle: 'Without CrossTech Collaboration OS',
     withoutPoints: [
-      'Five vendor contracts',
-      'Five SSO setups',
-      'Five compliance risks'
+      'Disjointed Jira boards & desynced sprint metrics',
+      'Brittle glue-code integrations failing continuously',
+      'Zero direct connection between Slack threads and tickets'
     ],
-    withTitle: 'With EmployeeOS',
-    withDesc: 'One platform with SOC 2 + ISO 27001 certification, native SSO and API, and a dedicated implementation team. Go live in 2–4 weeks, not months.',
+    withTitle: 'With CrossTech Collaboration OS',
+    withDesc: 'Unified Fractional LexoRank Kanban directly connected to WebSocket team streams. Zero glue-code overhead, pure SVG Bézier velocity charts, and instant sprint clarity.',
     image: 'images/CIO.png',
-    personName: 'Chief Information Officer',
+    personName: 'Chief Technology Officer',
     tasks: [
-      { label: 'Security & Access', detail: 'There are 4 tasks to review' },
-      { label: 'SSO Integration', detail: 'Active SAML 2.0 & Okta' },
-      { label: 'Data Governance', detail: 'ISO 27001 verified' }
+      { label: 'Sprint Velocity', detail: '180 pts · Pure SVG dial' },
+      { label: 'LexoRank Reorder', detail: '0ms latency real-time sync' },
+      { label: 'Active Pod Sprints', detail: '4 teams deploying smoothly' }
     ]
   },
-  chro: {
-    withoutTitle: 'Without EmployeeOS',
+  cpo: {
+    withoutTitle: 'Without CrossTech Collaboration OS',
     withoutPoints: [
-      'Fragmented HR tools & spreadsheets',
-      '30+ day slow entity onboarding',
-      'High misclassification penalty risk'
+      'Notion roadmaps disconnected from Jira execution',
+      'PRDs lost in noisy Slack channels and DMs',
+      '28 daily context switches between specs and boards'
     ],
-    withTitle: 'With EmployeeOS',
-    withDesc: 'Hire employees & contractors in 100+ countries in just 2.3 days. Automated localized contracts with 100% legal compliance.',
+    withTitle: 'With CrossTech Collaboration OS',
+    withDesc: 'Departmental strategic streams linked directly to cross-functional Kanban boards. Real-time WIP limit guardrails and single-click roadmap updates.',
     image: 'images/CIRO.png',
-    personName: 'Chief Human Resources Officer',
+    personName: 'Chief Product Officer',
     tasks: [
-      { label: 'Global Onboarding', detail: '2.3 days avg speed' },
-      { label: 'Contract Audit', detail: '100% compliant' },
-      { label: 'Team Analytics', detail: 'Real-time turnover' }
+      { label: 'Quarterly Milestone', detail: 'Q4 Enterprise Release' },
+      { label: 'WIP Limit Flow', detail: 'Optimal throughput (3/5)' },
+      { label: 'Department Stream', detail: 'Design & Eng alignment' }
     ]
   },
-  payroll: {
-    withoutTitle: 'Without EmployeeOS',
+  cio: {
+    withoutTitle: 'Without CrossTech Collaboration OS',
     withoutPoints: [
-      'Manual multi-currency calculations',
-      'Days spent filing state taxes',
-      'Frequent payroll calculation errors'
+      'Role changes create invisible permission leaks',
+      '$48–$70/user/mo bled across 4 separate invoices',
+      'Fragmented audit logs scattered across point solutions'
     ],
-    withTitle: 'With EmployeeOS',
-    withDesc: 'Auto-compute taxes, PF, ESI, and statutory deductions across all regions. One-click batch payroll execution and direct portal filing.',
-    image: 'images/Payroll Manager.png',
-    personName: 'Payroll Administrator',
+    withTitle: 'With CrossTech Collaboration OS',
+    withDesc: '5-tier scoped RBAC with automatic cascading inheritance. Cryptographically sealed immutable audit vault, native SAML 2.0 SSO, and SOC-2 Type II readiness.',
+    image: 'images/CIO.png',
+    personName: 'Chief Information & Security Officer',
     tasks: [
-      { label: 'Payroll Cycle', detail: 'Ready to approve' },
-      { label: 'Tax Deductions', detail: 'Auto-computed' },
-      { label: 'Batch Payout', detail: 'SEPA / ACH ready' }
+      { label: '5-Tier Scoped RBAC', detail: 'Org → Dept → Team → Member' },
+      { label: 'Audit Trail Vault', detail: 'Cryptographically sealed logs' },
+      { label: 'SAML 2.0 & SSO', detail: 'Okta & Azure AD verified' }
     ]
   },
   managers: {
-    withoutTitle: 'Without EmployeeOS',
+    withoutTitle: 'Without CrossTech Collaboration OS',
     withoutPoints: [
-      'Chasing emails for PTO approvals',
-      'Disconnected contractor invoices',
-      'No real-time team attendance sync'
+      'Constant manual status chasing in Slack DMs',
+      'WIP limits routinely violated causing bottlenecks',
+      'Duplicated tickets across cross-functional pods'
     ],
-    withTitle: 'With EmployeeOS',
-    withDesc: '1-click leave & expense approvals directly from Slack, MS Teams, or web. Real-time team calendars and milestone verification.',
+    withTitle: 'With CrossTech Collaboration OS',
+    withDesc: 'Live pod channels scoped to sprint boards. Automated blocker escalation, strict WIP limit enforcement, and instantaneous asynchronous summaries.',
     image: 'images/Manager.png',
-    personName: 'Engineering & People Manager',
+    personName: 'Engineering & Pod Manager',
     tasks: [
-      { label: 'Team PTO', detail: '2 pending reviews' },
-      { label: 'Expenses', detail: 'Receipts verified' },
-      { label: 'Milestones', detail: '1-click approval' }
+      { label: 'Sprint Guardrails', detail: 'WIP limit enforced (4/5)' },
+      { label: 'Blocker Escalation', detail: 'Resolved in pod stream' },
+      { label: 'Pod Standup', detail: 'Async summary generated' }
     ]
   },
-  employees: {
-    withoutTitle: 'Without EmployeeOS',
+  engineers: {
+    withoutTitle: 'Without CrossTech Collaboration OS',
     withoutPoints: [
-      'Asking HR for payslips repeatedly',
-      'Paper expense receipts lost in mail',
-      'Unclear leave balances & tax forms'
+      'Switching browser tabs 28 times per day',
+      'Technical discussions buried in lost Slack threads',
+      'Slow, bloated legacy issue trackers that lag on drag'
     ],
-    withTitle: 'With EmployeeOS',
-    withDesc: 'Self-service mobile & web app for instant payslip downloads, live leave balances, expense reporting, and tax document access.',
+    withTitle: 'With CrossTech Collaboration OS',
+    withDesc: 'Lightning-fast drag-and-drop Kanban with fractional LexoRank ordering. Markdown discussion threads linked natively to tickets and zero context switching.',
     image: 'images/Employee.png',
-    personName: 'Global Team Member',
+    personName: 'Senior Software Engineer',
     tasks: [
-      { label: 'My Payslips', detail: 'Instant PDF download' },
-      { label: 'Leave Balance', detail: 'Live sync updated' },
-      { label: 'Tax Form 16', detail: '1-click access' }
+      { label: 'Task Discussion', detail: 'Markdown thread linked' },
+      { label: 'LexoRank Drag', detail: 'Moved to In Review' },
+      { label: 'Focus Time', detail: '4.5 hrs uninterrupted flow' }
     ]
   }
 };
